@@ -1,0 +1,105 @@
+body{
+	margin: 0px;
+}
+#firstdiv{
+     height:30px;
+     
+     background-color: #F5F5DC;
+}
+#seconddiv{
+       height:90px;
+     width: 100%;
+     
+}
+#heading{
+	position: relative;
+	left: 115px;
+	top: 19px;
+	font-size: 36px;
+	text-decoration: none;
+	font-family: 'Raleway','Helvetica Neue',Helvetica,Arial,sans-serif;
+	padding-top: 0px;
+	margin-top: 0px;
+	color: black;
+}
+#outerdiv{
+
+	width: 69%;
+  	height:75px;
+    position: relative;
+    left: 210px;
+    border-bottom: 1px  solid #D3D3D3;
+}
+
+.navbar{
+	width: 82%;
+	margin-left: 40px;
+}
+#search{
+	margin-left:300px;
+}
+.navbar-nav{
+	width: 100%;
+}
+
+.sort{
+	width:250px;
+
+	border-top:4px solid black;
+}
+#btn1{
+	border:1px solid #D3D3D3;
+	margin-left: 45px;
+}
+#btn2{
+    border:1px solid #D3D3D3;
+    margin-left: 20px;
+}
+#btn3{
+    border:1px solid #D3D3D3;
+
+}
+
+.topbtn{
+	
+	 border: 1px solid #02b3e4;
+    background-color: #fff;
+    border-radius: 4px;
+    letter-spacing: 0.8px;
+    line-height: 15px;
+    padding-left: 6px;
+    padding-right: 6px;
+    height: 24px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.columnborder{
+
+	border-right: 2px solid #DCDCDC;
+	border-left: 2px solid #DCDCDC;
+}
+.tablebtn{
+	 border: 1px solid #02b3e4;
+    background-color: #fff;
+    border-radius: 4px;
+    letter-spacing: 0.8px;
+    line-height: 15px;
+    padding-left: 6px;
+    padding-right: 6px;
+    height: 24px;
+    font-size: 15px;
+    
+}
+.tablebtn2{
+    width:90px;
+    height: 45px;
+    line-height: 2px;
+    border-color: #D3D3D3;
+    
+}
+
+
+li{
+	list-style: none;
+}

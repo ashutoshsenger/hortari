@@ -1,0 +1,380 @@
+<!DOCTYPE>
+<html>
+<head>
+	 <title>hortari</title>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="hortari.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	 
+	
+</head>
+<body>
+
+   <div class="container-fluid">
+
+   <div id="firstdiv" class="row">
+
+   	<div class="col-sm-3" style="margin-top: 5px;">
+
+   		<h6 id="head1">Cryptocurrencies:<span><a href="#">1592</a></span> / Markets:<a href="#">10691</a><span></span></h6>
+   		
+   	</div>
+
+   	<div class="col-sm-7" style="margin-top: 5px;">
+
+   		 <h6>Market Cap:<span><a href="#">$430,737,938,722</a></span> / 24th Vol:<span><a href="#">$30,821,675,353</a></span> / BTC Dominance:<span><a href="#">37.1%</a></span></h6> 
+   		
+   	</div>
+
+   	<div class="col-sm-2" >
+
+   		<button class="topbtn">English</button>
+   		<button class="topbtn">USD</button>
+   		
+   	</div>
+
+   	
+
+   </div>
+
+   </div>
+
+
+   <div id="outerdiv">
+   <div id="seconddiv">
+
+   	<a id="heading" href="#">Cryptocurrency Market Capitalisations</a>
+  	
+   </div>
+   </div>
+   <br>
+
+
+   
+
+
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-dark">
+ 
+    <ul class="navbar-nav">
+    
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: black;">
+        Market Cap
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">All</a>
+        <a class="dropdown-item" href="#">Coins</a>
+        <a class="dropdown-item" href="#">Tokens</a>
+      </div>
+    </li>
+
+     <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: black;">
+        Trade Volume
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">24 Hour Volume Rankings(Currency)</a>
+        <a class="dropdown-item" href="#">24 Hour Volume Rankings(Exchange)</a>
+        <a class="dropdown-item" href="#">Monthly Volume Rankings(Currency)</a>
+      </div>
+    </li>
+
+     <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: black;">
+        Trending
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Gainers and Losers</a>
+        <a class="dropdown-item" href="#">Recently Added</a>
+      </div>
+    </li>
+
+       <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: black;">
+        Tools
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Global Charts</a>
+        <a class="dropdown-item" href="#">Historical Snapshots</a>
+        <a class="dropdown-item" href="#">Currency Converter Calculator</a>
+        <a class="dropdown-item" href="#">Website Widgets</a>
+      </div>
+      </li>
+
+      <li id="search">
+      <form class="form-inline" action="/action_page.php">
+      <input class="form-control" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+      </form>
+      </li>
+      </ul>
+     </nav>
+
+
+
+     <h2 style="text-align: center;">All Cryptocurrencies</h2>
+
+     <div class="row">
+
+
+
+
+     	<div class="col-sm-3">
+
+     		<div class="dropdown">
+  <button type="button" class="btn btn-light dropdown-toggle sort" data-toggle="dropdown" id="btn1">
+    All
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">All</a>
+    <a class="dropdown-item" href="#">$1 Billion+</a>
+    <a class="dropdown-item" href="#">$100 Million-$1Billion</a>
+    <a class="dropdown-item" href="#">$10 Million-$100 Million</a>
+    <a class="dropdown-item" href="#">$1 Million-$10 Million</a>
+    <a class="dropdown-item" href="#">$100k-$10 Million</a>
+    <a class="dropdown-item" href="#">$0-$100k</a>
+  </div>
+</div>
+     		
+     	</div>
+
+
+
+
+     	<div class="col-sm-3">
+
+     		<div class="dropdown">
+  <button type="button" class="btn btn-light dropdown-toggle sort btn-border" data-toggle="dropdown" id="btn2" >
+    All
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">All</a>
+    <a class="dropdown-item" href="#">$100+</a>
+    <a class="dropdown-item" href="#">$1-$100</a>
+    <a class="dropdown-item" href="#">$0.01-$1.00</a>
+    <a class="dropdown-item" href="#">$0.0001-$0.01</a>
+    <a class="dropdown-item" href="#">$0-$0.0001</a>
+  </div>
+</div>
+     		
+     	</div>
+
+
+
+
+     	<div class="col-sm-6">
+
+     		<div class="dropdown">
+  <button type="button" class="btn btn-light dropdown-toggle sort btn-border" data-toggle="dropdown" id="btn3" >
+    All
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">All</a>
+    <a class="dropdown-item" href="#">$10 Million+</a>
+    <a class="dropdown-item" href="#">$1 Million+</a>
+    <a class="dropdown-item" href="#">$100k+</a>
+    <a class="dropdown-item" href="#">$10k+</a>
+    <a class="dropdown-item" href="#">$1k+</a>
+  </div>
+</div>
+     		
+     	</div>
+     	
+
+
+
+
+
+     </div>
+
+
+
+     <div class="row" style="margin-top: 25px;">
+
+
+
+        <div class="dropdown col-sm-1">
+     	<button style="margin-left: 15px;width: 60px;border-color: 1px #D3D3D3;" type="button" class="btn btn-light dropdown-toggle sort btn-border tablebtn tablebtn2" data-toggle="dropdown">All</button>
+
+     	<div class="dropdown-menu">
+     	  <a class="dropdown-item" href="#">Top 100</a>
+          <a class="dropdown-item" href="#">Full List</a>	
+     	</div>
+
+        </div>
+        
+
+
+
+        <div class="dropdown col-sm-1">
+     	<button  type="button" class="btn btn-light dropdown-toggle sort btn-border tablebtn tablebtn2" data-toggle="dropdown">Coins</button>
+
+     	<div class="dropdown-menu">
+     	  <a class="dropdown-item" href="#">Top 100</a>
+          <a class="dropdown-item" href="#">Full List</a>
+          <a class="dropdown-item" href="#">Market Cap by Circulating Supply</a>
+          <a class="dropdown-item" href="#">Market Cap by Total Supply</a>
+          <a class="dropdown-item" href="#">Filter Non-Mineable</a>
+     	</div>
+
+        </div>
+        
+
+
+
+
+
+
+        <div class="dropdown col-sm-2">
+     	<button style="margin-left: 11px;" type="button" class="btn btn-light dropdown-toggle sort btn-border tablebtn tablebtn2" data-toggle="dropdown">Tokens</button>
+
+     	<div class="dropdown-menu">
+     	  <a class="dropdown-item" href="#">Top 100</a>
+          <a class="dropdown-item" href="#">Full List</a>
+          <a class="dropdown-item" href="#">Market Cap by Circulating Supply</a>
+          <a class="dropdown-item" href="#">Market Cap by Total Supply</a>
+     	</div>
+
+        </div>
+        
+
+
+
+
+
+        <div class="dropdown col-sm-6">
+     	<button style="margin-left:5px;width:75px;height: 35px;line-height: 2px;background-color: #428bca; color: white;border-color:#357ebd;margin-bottom: 7px;" type="button" class="btn btn-light dropdown-toggle sort btn-border tablebtn" data-toggle="dropdown">USD</button>
+
+     	<div class="dropdown-menu">
+     	  <a class="dropdown-item" href="#">All</a>
+          <a class="dropdown-item" href="#">$10 Million+</a>
+          <a class="dropdown-item" href="#">$1 Million+</a>
+          <a class="dropdown-item" href="#">$100k+</a>	
+     	</div>
+
+        </div>
+        </div>
+
+
+
+
+
+
+
+     <div class="container-fluid">
+
+       <div class="table-responsive">          
+    <table class="table">
+    <thead>
+      <tr>
+        <th class="columnborder"><a href="#">#</a></th>
+        <th class="columnborder"><a href="#">Name</a></th>
+        <th class="columnborder"><a href="#">Symbol</a></th>
+        <th class="columnborder"><a href="#">Market Cap</a></th>
+        <th class="columnborder"><a href="#">Price</a></th>
+        <th class="columnborder"><a href="#">Circulating Supply</a></th>
+        <th class="columnborder"><a href="#">Volume(24h)</a></th>
+        <th class="columnborder"><a href="#">%1h</a></th>
+        <th class="columnborder"><a href="#">%24h</a></th>
+        <th class="columnborder"><a href="#">%7d</a></th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+    	<template id="table-template">
+         <tr class="table-row">
+           
+           <li><td class="columnborder table-data1"></td></li>
+           <li><td class="columnborder table-data2" style="color: #428bca;;"><span><a href="#"></a></span></td></li>
+           <li><td class="columnborder table-data3"></td></li>
+           <li><a href="#"><td class="columnborder table-data4"></td></a></li>
+           <li><a href="#"><td class="columnborder table-data5" style="color:#428bca;;">$</td></a></li>
+           <li><a href="#"><td class="columnborder table-data6" style="color:#428bca;;"></td></a></li>
+           <li><td class="columnborder table-data7" style="color:#428bca;;" ></td></li>
+           <li><td class="columnborder table-data8"></td></li>
+           <li><td class="columnborder table-data9"></td></li>
+           <li><td class="columnborder table-data10"></td></li>
+           
+         </tr>
+        </template>
+
+    </tbody>
+  </table>
+  </div>
+</div>
+
+
+
+      <script type="text/javascript">           
+		    var url = "https://api.coinmarketcap.com/v1/ticker/";
+		    $.getJSON(url,(data)=>
+		    {			
+            for (var i = 0; i < data.length; i++)
+            {
+            var datas = data[i];
+            var tbl = document.getElementById('table-template').content.cloneNode(true);
+            var tblrow = tbl.querySelector('.table-row');
+            var tbldataone = tblrow.querySelector('.table-data1');
+            var tbldatatwo = tblrow.querySelector('.table-data2');
+            var tbldatathree = tblrow.querySelector('.table-data3');
+            var tbldatafour = tblrow.querySelector('.table-data4');
+            var tbldatafive = tblrow.querySelector('.table-data5');
+            var tbldatasix = tblrow.querySelector('.table-data6');
+            var tbldataseven = tblrow.querySelector('.table-data7');
+            var tbldataeight = tblrow.querySelector('.table-data8');
+            var tbldatanine = tblrow.querySelector('.table-data9');
+            var tbldataten = tblrow.querySelector('.table-data10');
+            tbldataone.innerText = i + 1;
+            tbldatatwo.innerText = datas.name;
+            tbldatathree.innerText = datas.symbol;
+            tbldatafour.innerText = "$" + datas.market_cap_usd;
+            tbldatafive.innerText = "$" + datas.price_usd;
+            tbldatasix.innerText = datas.total_supply;
+            tbldataseven.innerText = "$" + datas["24h_volume_usd"];
+            
+            tbldataeight.innerText = datas.percent_change_1h + "%";
+            tbldatanine.innerText = datas.percent_change_24h + "%";
+            tbldataten.innerText = datas.percent_change_7d + "%";
+
+
+
+           
+
+
+            //if (i == 0)
+            //{
+            // var crd = document.getElementById('cards-template');
+            //document.body.appendChild(tbl);
+            //}
+            //else
+            //{
+            //var tblbody = document.getElementById('table-body');
+            //tblbody.appendChild(tbl);
+            //}
+            var tblbody = document.getElementById('table-body');
+            tblbody.appendChild(tbl)
+
+
+            
+
+            
+            
+            }
+            
+            });
+
+           
+
+
+        </script>
+
+  	
+     </div>
+
+</body>
+</html>
